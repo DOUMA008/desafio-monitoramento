@@ -4,9 +4,12 @@
 ## 1. Identificação
 
 nome do aluno: Vítor Hugo Nunes Pereira.
-disciplina:  Algoritmos e Pensamento Computacional
-professora: Profa. Karla Sartin.
-título do projeto: Sistema de Monitoramento de Temperatura
+
+Disciplina:  Algoritmos e Pensamento Computacional
+
+Professora: Profa. Karla Sartin.
+
+Título do projeto: Sistema de Monitoramento de Temperatura
 
 ## 2. Objetivo
 
