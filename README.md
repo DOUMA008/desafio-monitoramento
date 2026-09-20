@@ -68,11 +68,11 @@ Entrada invalida. Por favor, digite um numero valido.
 
 Em seguida, a entrada incorreta é limpa e o programa solicita uma nova temperatura.
 
-O programa também verifica se a unidade informada é válida. As opções aceitas são `C`, `F` e `K`.
+O programa também verifica se a unidade informada é válida. As opções aceitas são C, F e K.
 
 ### Identificação de temperaturas acima do limite
 
-Depois da conversão para Celsius, o programa verifica se a temperatura é maior que **35 °C**.
+Depois da conversão para Celsius, o programa verifica se a temperatura é maior que 35 °C.
 
 Quando isso acontece, uma mensagem de alerta é apresentada e um contador é incrementado.
 
@@ -88,7 +88,7 @@ Temperaturas consecutivas acima do limite: 1
 
 ### Contagem de temperaturas consecutivas
 
-O programa utiliza uma variável chamada `contador` para registrar quantas temperaturas acima de 35 °C foram informadas consecutivamente.
+O programa utiliza uma variável chamada contador para registrar quantas temperaturas acima de 35 °C foram informadas consecutivamente.
 
 Quando uma temperatura igual ou menor que 35 °C é informada, o contador é zerado.
 
@@ -98,7 +98,7 @@ Dessa forma, somente temperaturas realmente consecutivas são consideradas.
 
 O monitoramento é encerrado automaticamente quando o contador chega a **3 temperaturas consecutivas acima de 35 °C**.
 
-Nesse momento, o programa chama a função `encerrarSistema()` e finaliza o `while` utilizando `break`.
+Nesse momento, o programa chama a função encerrarSistema() e finaliza o while utilizando break.
 
 
 ## 4. Estruturas de repetição utilizadas
@@ -109,7 +109,7 @@ O programa utiliza a estrutura de repetição:
 while (1)
 
 
-O `while` foi utilizado para manter o sistema funcionando continuamente, permitindo que o usuário informe várias temperaturas.
+O while foi utilizado para manter o sistema funcionando continuamente, permitindo que o usuário informe várias temperaturas.
 
 A repetição continua até que uma das condições de encerramento seja alcançada.
 
@@ -120,7 +120,7 @@ break;
 
 ## 5. Como executar
 
-Para compilar o programa utilizando o GCC, abra o terminal na pasta onde está o arquivo `monitoramento.c` e execute:
+Para compilar o programa utilizando o GCC, abra o terminal na pasta onde está o arquivo monitoramento.c e execute:
 
 
 gcc monitoramento.c -o monitoramento
