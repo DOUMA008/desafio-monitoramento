@@ -214,3 +214,6 @@ Tres temperaturas consecutivas acima do limite.
 
 Sistema encerrado automaticamente.
 
+**OBS**
+Gitcopilot utilizado apenas para organizar o github. 
+
