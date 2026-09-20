@@ -3,12 +3,10 @@
 
 ## 1. Identificação
 
-**Aluno**:Vítor Hugo Nunes Pereira.
-**Disciplina:** Algoritmos e Programação
-**Professora:** Profa. Karla Sartin
-**Título do projeto:** Sistema de Monitoramento de Temperatura
-
----
+nome do aluno: Vítor Hugo Nunes Pereira.
+disciplina:  Algoritmos e Pensamento Computacional
+professora: Profa. Karla Sartin.
+título do projeto: Sistema de Monitoramento de Temperatura
 
 ## 2. Objetivo
 
@@ -17,8 +15,6 @@ O objetivo deste projeto é desenvolver um sistema simples de monitoramento de t
 O programa recebe temperaturas informadas pelo usuário, permite a utilização das unidades Celsius, Fahrenheit e Kelvin e verifica se a temperatura está normal, alta ou muito alta.
 
 O sistema também identifica quando ocorrem três temperaturas consecutivas acima do limite definido e encerra o monitoramento automaticamente.
-
----
 
 ## 3. Funcionamento do programa
 
@@ -37,9 +33,9 @@ Temperaturas:
 
 O programa solicita ao usuário uma temperatura e, em seguida, solicita a unidade de medida:
 
-* `C` para Celsius;
-* `F` para Fahrenheit;
-* `K` para Kelvin.
+C para Celsius;
+F para Fahrenheit;
+K para Kelvin.
 
 Quando a temperatura é informada em Fahrenheit ou Kelvin, ela é convertida para Celsius antes da verificação do limite.
 
